@@ -1,3 +1,5 @@
+# Minimal Index Project
+
 ## Contributor
 Tanguy Legrand
 
@@ -9,6 +11,9 @@ This Python program enables the creation of non-positional web indexes based on 
 This file contains functions for text preprocessing and building a non-positional index from a collection of documents.
 ### main.py
 The main script that loads a list of documents, processes them using the functions from creation_index.py, and creates non-positional indexes with or without stemming.
+
+## Features
+
 
 
 ## Prerequisites
