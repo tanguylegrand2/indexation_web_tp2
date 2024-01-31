@@ -1,0 +1,10 @@
+{
+  "num_documents": 13550,
+  "num_tokens_global": 7902898,
+  "num_tokens_per_field": {
+    "title": 166200,
+    "content": 7625295,
+    "h1": 111403
+  },
+  "avg_tokens_per_document": 583.2397047970479
+}
