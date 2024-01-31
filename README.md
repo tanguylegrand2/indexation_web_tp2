@@ -5,9 +5,9 @@ Tanguy Legrand
 ## Description
 This Python program enables the creation of non-positional web indexes based on the content of documents. It consists of two main files:
 
-# creation_index.py
+### creation_index.py
 This file contains functions for text preprocessing and building a non-positional index from a collection of documents.
-# main.py
+### main.py
 The main script that loads a list of documents, processes them using the functions from creation_index.py, and creates non-positional indexes with or without stemming.
 
 
@@ -35,11 +35,11 @@ python main.py --input_file crawled_urls.json
 
 ## Organization of the Project
 
-# creation_index.py
+### creation_index.py
 
 Contains functions for text preprocessing (preprocess_text) and building a non-positional index (build_non_pos_index).
 
-# main.py
+### main.py
 
 The main script that uses functions from creation_index.py to create non-positional indexes with or without stemming.
 
@@ -47,28 +47,28 @@ The main script that uses functions from creation_index.py to create non-positio
 
 ## Files
 
-# creation_index.py
+### creation_index.py
 
 preprocess_text: Tokenizes, lowercases, removes stopwords, and applies stemming to input text.
 build_non_pos_index: Builds a non-positional index from a collection of documents.
 
-# main.py
+### main.py
 
 create_index_with_options: Calls build_non_pos_index with specified options and saves the index and metadata to files.
 main: Loads documents from the input file, creates non-positional indexes with and without stemming, and saves statistics.
 
-# crawled_urls.json
+### crawled_urls.json
 
 Example input file containing a list of documents with fields such as URL, title, content, and h1.
 
-# metadata.json
+### metadata.json
 
 Output file containing statistics about the created indexes.
 
-# mon_stemmer.title.non_pos_index.json
+### mon_stemmer.title.non_pos_index.json
 
 Output file containing the non-positional index with stemming applied.
 
-# title.non_pos_index.json
+### title.non_pos_index.json
 
 Output file containing the non-positional index without stemming.
