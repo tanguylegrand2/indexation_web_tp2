@@ -14,6 +14,9 @@ The main script that loads a list of documents, processes them using the functio
 
 ## Features
 
+Builds a non-positional web index from a list of URLs in JSON in JSON title.non_pos_index.json  
+Shows statistics on documents in json metadata  
+Creates a non-positional web index by applying a stemmer in the JSON my_stemmer.title.non_pos_index.json  
 
 
 ## Prerequisites
